@@ -1,4 +1,4 @@
-You'll need ImageMagick installed. Homebrew makes this easy. Simply do:
+You'll need ImageMagick installed. The easiest way is to use [Homebrew], then simply do:
 
     brew install imagemagick
 
@@ -6,4 +6,13 @@ Then simply do:
 
     [sudo] gem install lolcommits
 
-<small>If you're using RVM (or rbenv), you can/should probably omit the sudo, but the default MacOSX Ruby install is dumb and requires it.<small>
+<small>
+_(If you're using a custom Ruby install, you can omit the sudo, but the default MacOSX install will require it.)_
+</small>
+
+<small>
+**Don't have Homebrew already?**
+[Follow these installation instructions first.][Homebrew]
+</small>
+
+[Homebrew]: http://brew.sh
