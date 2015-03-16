@@ -8,14 +8,6 @@ h2 {
 p a {
   /*font-weight: bold;*/
 }
-.ribbon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 0;
-  z-index:1040;
-}
-
 .brand {
   color: white !important;
 }
