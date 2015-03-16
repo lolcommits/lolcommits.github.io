@@ -11,6 +11,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="assets/css/main.css" rel="stylesheet">
     <link rel="canonical" href="https://lolcommits.github.io">
   </head>
@@ -158,19 +159,19 @@
         <h2>Installation</h2>
         <div class="row">
           <div class="span6">
-            <h4><img src="assets/img/osicon/apple.png"> OS X</h4>
+            <h4><i class="fa fa-apple"></i> OS X</h4>
             {% capture install_mac %}{% include install_mac.md %}{% endcapture %}
             {{ install_mac | markdownify }}
           </div>
           <div class="span6">
-            <h4><img src="assets/img/osicon/linux.gif"> Linux</h4>
+            <h4><i class="fa fa-linux"></i> Linux</h4>
             {% capture install_linux %}{% include install_linux.md %}{% endcapture %}
             {{ install_linux | markdownify }}
          </div>
        </div>
         <div class="row">
           <div class="span12">
-              <h4><img src="assets/img/osicon/windows.gif"> Windows</h4>
+              <h4><i class="fa fa-windows"></i> Windows</h4>
               <p>Here be dragons!  You'll need some more detailed instructions to get the dependencies installed.</p>
               <p><a class="btn btn-mini" href="https://github.com/mroth/lolcommits/wiki/Installing-on-Windows">View details &raquo;</a></p>
           </div>
