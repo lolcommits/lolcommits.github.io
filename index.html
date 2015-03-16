@@ -175,25 +175,16 @@
         <div class="row">
           <div class="span6">
             <h4><img src="assets/img/osicon/apple.png"> OS X</h4>
-            <p>You'll need ImageMagick installed. Homebrew makes this easy. Simply do:</p>
-            <pre>brew install imagemagick</pre>
-            <p>Then simply do:</p>
-            <pre>[sudo] gem install lolcommits</pre>
-            <p>
-              <small>If you're using RVM (or rbenv), you can/should probably omit the sudo, but the default MacOSX Ruby install is dumb and requires it.
-              </small></p>
-            <p>
+            {% capture install_mac %}{% include install_mac.md %}{% endcapture %}
+            {{ install_mac | markdownify }}
             <div class="alert">
               <small><strong>Don't have Homebrew already?</strong> It's a miracle you're using a Mac to develop software then! <a href="https://github.com/mxcl/homebrew/wiki/Installation">Follow these installation instructions first.</a></small>
             </div>
           </div>
           <div class="span6">
             <h4><img src="assets/img/osicon/linux.gif"> Linux</h4>
-            <p>Install dependencies using your package manager of choice, for example in Ubuntu:</p>
-            <pre>apt-get install mplayer imagemagick libmagickwand-dev</pre>
-            <p>Then install the lolcommits gem:</p>
-            <pre>gem install lolcommits</pre>
-            <p>For more detailed Linux installation instructions, check the <a href="https://github.com/mroth/lolcommits/wiki/Installing-on-Linux">Linux installation wiki page</a>.
+            {% capture install_linux %}{% include install_linux.md %}{% endcapture %}
+            {{ install_linux | markdownify }}
          </div>
        </div>
         <div class="row">
