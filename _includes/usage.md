@@ -14,7 +14,7 @@ Ok, if you insist... Since you know about `--enable`, common sense suggest there
 
 #### Advanced configuration
 
-Want to do something cray cray like adjusting camera delay, enabling an add-on or [animating commit gifs][animating]? Check out how to [configure commit capturing][commit-capturing] or check out our small but growing list of [plugins][plugins-wiki].
+Want to do something cray cray like adjusting camera delay, enabling an add-on or creating [animated commit GIFs][animating]? Check out how to [configure commit capturing][commit-capturing] or check out our small but growing list of [plugins][plugins-wiki].
 
 If you like to manage things with <a href="http://boxen.github.com">Boxen</a>, [try this module][boxen-module].
 
