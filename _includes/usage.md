@@ -2,11 +2,7 @@
 
 From within any git repository, simply do a `lolcommits --enable`.  From that point on, any git commit will automatically trigger a lolcommit capture!  All lolcommits are stored in `~/.lolcommits` by default, placed in a subdirectory by project name, and with a filename matching the commit hash.
 
-You can also enable lolcommits across all your local git repos. Follow [these steps][enable-all-steps] to achieve this using `git init` and the `init.templatedir` setting.
-
 Don't worry about it too much, half the fun of lolcommits is forgetting it's installed!
-
-[enable-all-steps]: https://github.com/mroth/lolcommits/wiki/Enabling-Lolcommits-for-all-your-Git-Repositories
 
 #### Other commands
 
@@ -16,12 +12,9 @@ Ok, if you insist... Since you know about `--enable`, common sense suggest there
 
 Want to do something cray cray like adjusting camera delay, enabling an add-on or creating [animated commit GIFs][animating]? Check out how to [configure commit capturing][commit-capturing] or check out our small but growing list of [plugins][plugins-wiki].
 
-If you like to manage things with <a href="http://boxen.github.com">Boxen</a>, [try this module][boxen-module].
-
 [animating]: https://github.com/mroth/lolcommits#animated-gif-capturing
 [commit-capturing]: https://github.com/mroth/lolcommits/wiki/Configure-Commit-Capturing
 [plugins-wiki]: https://github.com/mroth/lolcommits/wiki/Configuring-Plugins
-[boxen-module]: https://github.com/AssuredLabor/puppet-lolcommits
 
 #### Troubles?
 
