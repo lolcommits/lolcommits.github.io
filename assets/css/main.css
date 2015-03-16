@@ -1,12 +1,8 @@
 body {
-  /*padding-top: 60px;*/
   padding-bottom: 40px;
 }
 h2 {
   color: #666;
-}
-p a {
-  /*font-weight: bold;*/
 }
 .brand {
   color: white !important;
@@ -15,7 +11,7 @@ p a {
   background-color: #fff;
   padding: 30px;
 }
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .hero-unit {
     margin-top: 60px;
   }
