@@ -24,13 +24,13 @@ do `--help` for a full list of available commands.
 Want to do something cray cray like adjusting camera delay, ironically applying
 a [hipster][hipster] style, configuring add-ons or even [animating your
 lols][animating]? Then check out how to [configure commit
-capturing][commit-capturing] and try some of our (small but growing) list of
+capturing][commit-capturing] and try some of our growing list of
 [plugins][plugins-wiki].
 
 [hipster]: https://twitter.com/matthutchin/status/738411190343368704
-[animating]: https://github.com/mroth/lolcommits#animated-gif-capturing
-[commit-capturing]: https://github.com/mroth/lolcommits/wiki/Configure-Commit-Capturing
-[plugins-wiki]: https://github.com/mroth/lolcommits/wiki/Configuring-Plugins
+[animating]: https://github.com/lolcommits/lolcommits#animated-gif-capturing
+[commit-capturing]: https://github.com/lolcommits/lolcommits/wiki/Configure-Commit-Capturing
+[plugins-wiki]: https://github.com/lolcommits/lolcommits/wiki/Configuring-Plugins
 
 #### Troubles?
 
@@ -39,7 +39,7 @@ more information. If you think something is broken or missing, raise a [GitHub
 issue][issues] (and please take a little time to check if we haven't [already
 addressed][closed-issues] it).
 
-[FAQ]: https://github.com/mroth/lolcommits/wiki/FAQ
-[wiki]: https://github.com/mroth/lolcommits/wiki
-[issues]: https://github.com/mroth/lolcommits/issues
-[closed-issues]: https://github.com/mroth/lolcommits/issues?q=is%3Aissue+is%3Aclosed
+[FAQ]: https://github.com/lolcommits/lolcommits/wiki/FAQ
+[wiki]: https://github.com/lolcommits/lolcommits/wiki
+[issues]: https://github.com/lolcommits/lolcommits/issues
+[closed-issues]: https://github.com/lolcommits/lolcommits/issues?q=is%3Aissue+is%3Aclosed

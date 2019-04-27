@@ -10,4 +10,4 @@ Then install the lolcommits gem:
 For more detailed Linux installation instructions, check the [Linux installation wiki page][linux-install-wiki].
 </small>
 
-[linux-install-wiki]: https://github.com/mroth/lolcommits/wiki/Installing-on-Linux
+[linux-install-wiki]: https://github.com/lolcommits/lolcommits/wiki/Installing-on-Linux
