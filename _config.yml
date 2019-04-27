@@ -1,10 +1,11 @@
 timezone: America/New_York
 markdown: kramdown
 
-gems:
+plugins:
   - jemoji
 
 exclude:
+  - vendor
   - README.md
   - Rakefile
   - Gemfile
